@@ -58,7 +58,6 @@ function generateMarkdown(data) {
   <br />
   <!-- DESCRIPTION -->
   ## Description
-  <br />
   
   <div align="center">
     <h3 align="center">${data.title}</h3>
@@ -89,9 +88,8 @@ function generateMarkdown(data) {
       <li><a href="#questions">Questions</a></li>
     </ol>
   </details>
-  
-
-
+  <br />
+  <br />
 
   <!-- INSTALLATION -->
   ### Installation
@@ -99,9 +97,8 @@ function generateMarkdown(data) {
   <ul>
     <li>${data.installation}</li>
   </ul>
-    
-
-  
+  <br />
+  <br />
 
   <!-- USAGE -->
   ## Usage
@@ -109,9 +106,8 @@ function generateMarkdown(data) {
   <ul>
     <li>${data.usage}</li>
   </ul>
-
-
-
+  <br />
+  <br />
 
   <!-- CONTRIBUTION GUIDELINES -->
   ## Contributing
@@ -121,10 +117,8 @@ function generateMarkdown(data) {
     <li>${data.contribution}</li>
   </ul>
   <p>You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!</p>
-  
-
-
-
+  <br />
+  <br />
 
   <!-- TESTING INSTRUCTIONS -->
   ## Testing
@@ -132,25 +126,20 @@ function generateMarkdown(data) {
   <ul>
     <li>${data.test}</li>
   </ul>
-
-
-  
+  <br />
+  <br />
 
   <!-- LICENSE -->
   ## License
   <p>Distributed under the ${data.license} License.</p>
-
- 
-
-
+  <br />
+  <br />
 
   <!-- QUESTIONS -->
   ## Questions
   <p>If you have any questions, please contact me at ${data.email}</p>
   <br>
   <p>You can also review the rest of my repository <a href="https://github.com/${data.username}">here</a></p>
-
- 
 
   [contributors-shield]: https://img.shields.io/github/contributors/${data.username}/${data.repo}.svg?style=for-the-badge
   [contributors-url]: https://github.com/${data.username}/${data.repo}/graphs/contributors
