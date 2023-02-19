@@ -22,8 +22,18 @@ const questions = [
   },
   {
     type: "input",
+    message: "What is the name of your project repository?",
+    name: "repo",
+  },
+  {
+    type: "input",
     message: "Please provide a description of your project?",
     name: "description",
+  },
+  {
+    type: "input",
+    message: "What is the name of your screenshot (png format required)?",
+    name: "screenshot",
   },
   {
     type: "input",
@@ -55,11 +65,10 @@ const questions = [
         'BSD 2-clause "Simplified" license',
         'BSD 3-clause "New" or "Revised" license',
         "Creative Commons Zero v1.0 Universal",
-        "Do What The F*ck You Want To Public License",
         "Eclipse Public License 2.0",
         "GNU Affero General Public License v3.0",
         "GNU General Public License v2.0",
-        "GNU Lesser General Public License v2.1",
+        "GNU Lesser General Public License v3",
         "MIT License",
         "Mozilla Public License 2.0",
         "The Unlicense",
