@@ -17,7 +17,7 @@
     <h3 align="center">Readme Generator</h3>
     <p align="center">An application that generates a readme.md file based upon the users input</p>
     <br/>
-    <p align="center"><a href="https://drive.google.com/file/d/1gRvC7vtWLvL6Ge0sO4Y_uVMRK3ECk5Ai/view">Video Demonstration</a>
+    <p align="center"><a href="https://drive.google.com/file/d/13uheiuIZNLZUPE_yFzbgO2Kl_ssFuNhT/view?usp=share_link">Video Demonstration</a>
     <p align="center">
       <br />
       <img src="./assets/images/screenshot.png" alt="screenshot of Readme Generator" />
